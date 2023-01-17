@@ -14,5 +14,6 @@ class ValidateForm {
     } else if (password != null && password.length < 8) {
       return 'Password must be at least 8 character long';
     }
+    return null;
   }
 }
